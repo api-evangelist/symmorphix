@@ -1,8 +1,30 @@
 aid: symmorphix
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/symmorphix.png
 name: Symmorphix
-description: Symmorphix is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Symmorphix, Inc. was a materials-science company founded in 1998 and based in
+  Sunnyvale, California, that developed and manufactured advanced amorphous
+  dielectric and optical thin films for the optical-networking and
+  communications industries. Its core technology was a proprietary wide-area
+  physical vapor deposition (PVD) process performed at low temperatures,
+  enabling deposition of a broad range of material compositions onto metal,
+  ceramic, and polymer substrates for use as physical barriers, dielectric
+  layers, and optical layers. The company was venture-backed by Battery Ventures
+  and Crescendo Ventures and was acquired by Springworks on February 6, 2004. It
+  is a defunct hardware/materials company with no public API, developer portal,
+  or software developer surface, and is retained in the API Evangelist network
+  only as a historical portfolio-lead record.
 url: https://raw.githubusercontent.com/api-evangelist/symmorphix/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +32,29 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: springworks
+x-acquired-date: '2004-02-06'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Materials Science
+- Thin Films
+- Physical Vapor Deposition
+- Optical Networking
+- Semiconductors
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
